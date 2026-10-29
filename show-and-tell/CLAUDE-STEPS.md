@@ -9,16 +9,16 @@ not the claude.ai website: the website can't write files to your repo.)*
 ## My four answers (fill these in first)
 
 1. **What it is** — what does my instrument do?
-   > (your answer)
+   > Airport for agentic trading.
 
 2. **The idea behind it** — how does it help me think better with AI?
-   > (your answer)
+   > Harness the power of global market.
 
 3. **One wrong thing + one fix** — what broke, and what I did about it:
-   > (your answer)
+   > I made a mistake while trading, my agent correct me with the signal it captured from the market/news.
 
 4. **What feedback I want** — the question I'm ending my show with:
-   > (your answer)
+   > How can I persuade you guys to be my first customer and how much money would you allow agent to trade by itself.
 
 ## Claude: your instructions
 
