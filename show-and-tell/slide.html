@@ -203,6 +203,44 @@
     font-style: normal;
     color: var(--amber);
   }
+
+  /* ---------- phone width: let it breathe and scroll rather than clip ----------
+     The projector case above is pinned to one screen; below 760px the slide
+     relaxes into a readable column with fixed type sizes. */
+
+  @media (max-width: 760px) {
+    body { overflow: auto; }
+
+    .slide {
+      height: auto;
+      min-height: 100vh;
+      min-height: 100dvh;
+      padding: 24px 16px 36px;
+      gap: 18px;
+    }
+
+    .slide::after { bottom: -24vh; height: 48vh; }
+
+    .board-head {
+      font-size: 11px;
+      letter-spacing: 0.16em;
+      flex-wrap: wrap;
+      row-gap: 6px;
+    }
+
+    .hero .kicker, .ask .kicker { font-size: 11px; }
+    .hero h1 { font-size: 34px; }
+
+    .row-head { flex-wrap: wrap; row-gap: 6px; }
+    .label  { font-size: 10px; }
+    .status { font-size: 10px; }
+
+    .row--idea .value { font-size: 23px; }
+    .row--fix  .value { font-size: 15px; }
+
+    .ask { padding-top: 18px; }
+    .ask-text { font-size: 27px; }
+  }
 </style>
 </head>
 <body>
